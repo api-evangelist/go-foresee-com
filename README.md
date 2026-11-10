@@ -1,4 +1,4 @@
-# go-foresee-com
+# Foresee Insurance Services, LLC
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-go-foresee-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://go-foresee.com/
+Foresee Insurance Services, LLC provides personal-lines insurance quote estimates for AI agents across all U.S. states, with live auto insurance quoting in California. The platform offers instant MCP quoting without an API key, enabling AI assistants to compare home and auto insurance from every carrier.
+
+**Areas:** Insurance · AI · PersonalFinance · QuoteEngine · Company
+
+## Foresee Insurance Services, LLC on APIs.io
+
+Everything profiled for Foresee Insurance Services, LLC is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/go-foresee-com/](https://apis.io/providers/go-foresee-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Foresee Insurance Services, LLC Confirm API](https://apis.io/apis/go-foresee-com/go-foresee-com-confirm-api/) — Confirm on the carrier's own site (live_carrier_quotes, agents host)
+- [Foresee Insurance Services, LLC Estimate API](https://apis.io/apis/go-foresee-com/go-foresee-com-estimate-api/) — Instant estimates (quote_insurance)
+- [Foresee Insurance Services, LLC MCP API](https://apis.io/apis/go-foresee-com/go-foresee-com-mcp-api/) — Model Context Protocol transport
+- [Foresee Insurance Services, LLC Ops API](https://apis.io/apis/go-foresee-com/go-foresee-com-ops-api/) — Liveness and status
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Foresee Insurance Services, LLC Agentic Access](https://apis.io/agentic-access/go-foresee-com/go-foresee-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [JsonRpcRequest](https://apis.io/schemas/go-foresee-com/go-foresee-com-json-rpc-request/)
+- [JsonRpcResponse](https://apis.io/schemas/go-foresee-com/go-foresee-com-json-rpc-response/)
+- [LiveQuoteArgs](https://apis.io/schemas/go-foresee-com/go-foresee-com-live-quote-args/)
+- [QuoteInsuranceArgs](https://apis.io/schemas/go-foresee-com/go-foresee-com-quote-insurance-args/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Go Foresee Com Context](https://apis.io/jsonld/go-foresee-com/go-foresee-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Foresee Insurance Services, LLC API Rules](https://apis.io/rules/go-foresee-com/go-foresee-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Foresee Insurance Services, LLC Domain Security](https://apis.io/security/go-foresee-com/go-foresee-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://go-foresee.com/)
+- [Documentation](https://go-foresee.com/docs)
+- [API reference](https://go-foresee.com/llms.txt)
+- [Support](https://go-foresee.com/support)
+- [Terms of service](https://go-foresee.com/terms)
+- [Privacy policy](https://go-foresee.com/privacy)
+- [Status](https://go-foresee.com/status)
+
+## API Evangelist rating
+
+**Kin Score 40.6** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 30.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.6** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/go-foresee-com/](https://apis.io/providers/go-foresee-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Foresee Insurance Services, LLC: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/go-foresee-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
